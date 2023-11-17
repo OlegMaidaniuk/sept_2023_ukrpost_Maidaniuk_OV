@@ -1,0 +1,90 @@
+body {
+  margin: 0 auto
+}
+
+.main {
+  width: 100vw;
+  /*display: flex;*/
+}
+
+.container {
+  width: 100%;
+}
+
+.box1 {
+  height: 90px;
+  background: #FFF;
+}
+
+.first {
+  position: relative;
+  top: 25px;
+  left: 135px;
+}
+
+.box2 {
+  height: 60px;
+  background: #FFF;
+
+  align-items: flex-start;
+  padding: 0 671.151px 0 135px;
+  gap: 29.626px;
+  /*flex-shrink: 0;*/
+}
+
+.box1, .box2, .box4,
+.box5, .box6, .box8 {
+  display: flex;
+  align-items: center;
+}
+
+.box3 {
+  background: #FEC524;
+  display: inline-flex;
+  /*padding: 0 735px 220px 135px;*/
+  align-items: center;
+}
+
+.box4 {
+  height: 800px;
+  flex-shrink: 0;
+  background: #FFF;
+}
+
+.box5 {
+  height: 660px;
+  background: #062e4c;
+  /*padding: 120px 135px 150px 135px;*/
+  justify-content: center;
+}
+
+.box6 {
+  height: 880px;
+  /*padding: 100px 120px 0px 120px;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.box7 {
+  background: #0E2F4B;
+  display: flex;
+  align-items: center;
+  height: 635px;
+  /*padding: 134.5px 120px 135.5px 120px;*/
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nav{
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: auto;
+  color: #99A2AA;
+  font-family:"Roboto Light";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60px;
+
+}
